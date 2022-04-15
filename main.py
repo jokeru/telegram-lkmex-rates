@@ -34,7 +34,7 @@ async def handler(event):
 # handle @lkmex_trade_bot (LKMEX - MEX) bot
 @client.on(events.NewMessage(incoming=True, chats="@lkmex_trade_bot"))
 async def handler(event):
-    if event.text == "Type the amount you'd like to swap:"
+    if event.text == "Type the amount you'd like to swap:":
         await event.reply("1")
     if event.text.startswith("For 1.000 LKMEX tokens you will get:"):
         rate = float(event.text.split(" ")[7])
