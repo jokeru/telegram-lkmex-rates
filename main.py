@@ -46,11 +46,12 @@ async def main():
     # get data
     await client.send_message("@lkmex_egld_trade_bot", "/quote")
     await client.send_message("@lkmex_trade_bot", "/quote")
-    await asyncio.sleep(2) # wait 2s for bots to reply
+    await asyncio.sleep(2)  # wait 2s for bots to reply
     # cleanup
     async for message in client.iter_messages("@lkmex_egld_trade_bot"):
         await client.delete_messages("@lkmex_egld_trade_bot", message.id)
     async for message in client.iter_messages("@lkmex_trade_bot"):
         await client.delete_messages("@lkmex_trade_bot", message.id)
+
 
 asyncio.run(main())
