@@ -15,7 +15,7 @@ For local development, you can use this [Dockerfile](Dockerfile) to build your i
 
 
 ## Output
-```
+```raw
 1m LKMEX = 0.610 EGLD
 1 LKMEX = 0.434 MEX
 ```
