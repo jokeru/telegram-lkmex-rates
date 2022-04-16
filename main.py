@@ -25,7 +25,7 @@ client = TelegramClient("jkr", api_id, api_hash)
 @client.on(events.NewMessage(incoming=True, chats="@lkmex_egld_trade_bot"))
 async def handlerEgld(event):
     if event.text.startswith("BOT in maintenance mode."):
-        print(f"EGLD bot is offline")
+        print("EGLD bot is offline")
     if event.text == "Type the amount you'd like to swap:":
         await event.reply("1000000")
     if event.text.startswith("For 1,000,000.000 LKMEX tokens you will get:"):
@@ -37,7 +37,7 @@ async def handlerEgld(event):
 @client.on(events.NewMessage(incoming=True, chats="@lkmex_trade_bot"))
 async def handlerMex(event):
     if event.text.startswith("BOT in maintenance mode."):
-        print(f"MEX bot is offline")
+        print("MEX bot is offline")
     if event.text == "Type the amount you'd like to swap:":
         await event.reply("1")
     if event.text.startswith("For 1.000 LKMEX tokens you will get:"):
