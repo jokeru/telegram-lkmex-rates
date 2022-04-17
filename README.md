@@ -2,7 +2,11 @@
 
 [![GitHub Super-Linter](https://github.com/jokeru/telegram-lkmex-rates/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
-If you own [LKMEX](https://docs.maiar.exchange/maiar-exchange-features/locked-mex-insights/what-is-LKMEX/) and you want to cash out or simply swap them for `EGLD` or `MEX`, one way of doing it is by using the 2 telegram bots: one for EGLD swaps and one for MEX swaps.  
+If you own [LKMEX](https://docs.maiar.exchange/maiar-exchange-features/locked-mex-insights/what-is-LKMEX/) and you want to:  
+- cash out 💸 
+- or simply swap them 🔄 for `EGLD` or `MEX`
+
+one way of doing it is by using the 2 telegram bots, one for EGLD swaps and one for MEX swaps.  
 
 
 ## PreReqs
@@ -12,7 +16,7 @@ If you own [LKMEX](https://docs.maiar.exchange/maiar-exchange-features/locked-me
 
 ## Setup
 
-The `main.py` script will impersonate your personal telegram account to get the latest `LKMEX` rates from the following two LKMEX Trading Bots:  
+The `main.py` script will impersonate your telegram account to get the latest `LKMEX` rates from the following two LKMEX Trading Bots:  
 - [lkmex_trade_bot](https://t.me/LKMEX_Trade_Bot?start=5034333397)  
 - [lkmex_egld_trade_bot](https://t.me/LKMEX_EGLD_Trade_Bot?start=5034333397)  
 
@@ -34,7 +38,12 @@ docker run \
 ```raw
 Please enter your phone (or bot token): +123456789012
 Please enter the code you received: 12345
-Signed in successfully as John Doe
+Signed in successfully as the JoKer
 1 LKMEX = 0.369 MEX
 1m LKMEX = 0.545 EGLD
 ```
+
+
+## Tip
+
+💰 You can also check the [exchange way](https://github.com/jokeru/lockedmex-exchange-lkmex-rates) of swapping `LKMEX` to `EGLD` or `MEX`.  
