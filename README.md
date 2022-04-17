@@ -23,10 +23,10 @@ For local development, you can use this [Dockerfile](Dockerfile) to build your i
 ```bash
 docker build --tag telegram-lkmex-rates:0.1.0 .
 docker run \
-   --env API_ID=foo \
-   --env API_HASH=bar \
-   --tty \
-   --interactive \
+  --env API_ID=foo \
+  --env API_HASH=bar \
+  --tty \
+  --interactive \
   telegram-lkmex-rates:0.1.0
 ```
 
