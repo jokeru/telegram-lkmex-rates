@@ -3,8 +3,8 @@
 [![GitHub Super-Linter](https://github.com/jokeru/telegram-lkmex-rates/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
 If you own [LKMEX](https://docs.maiar.exchange/maiar-exchange-features/locked-mex-insights/what-is-LKMEX/) and you want to:  
-- cash out 💸 
-- or simply swap them 🔄 for `EGLD` or `MEX`
+- cash out 💸  
+- or simply swap them 🔄 for `EGLD` or `MEX`  
 
 one way of doing it is by using the 2 telegram bots, one for EGLD swaps and one for MEX swaps.  
 
